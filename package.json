@@ -25,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drKreshel/mentorme-globant.git"
+    "url": "git+https://github.com/LauColombini/MentorMe"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drKreshel/mentorme-globant/issues"
+    "url": "https://github.com/LauColombini/MentorMel/mentorme-globant/issues"
   },
-  "homepage": "https://github.com/drKreshel/mentorme-globant#readme"
+  "homepage": "https://github.com/LauColombini/MentorMe#readme"
 }
