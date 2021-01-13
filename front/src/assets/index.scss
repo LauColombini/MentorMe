@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,300;1,400&display=swap");
+@import "./_colors.scss";
+@import "./_landing";
+@import "./_burger";
+@import "./_nav";
+@import "./_menu";
+@import "./myprofile";
+@import "./_login.scss";
+@import "./register.scss";
+@import "./myMentorDashboard";
+@import "./mymenteecard";
+@import "./_menteepage";
+@import "./matching";
+@import "./myprofile2";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: $backgorundColor;
+}
+
+#root{
+  min-height: 100vh;
+}
+
+.separador {
+  display: block;
+}
+
+.order {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+ 
+}
+
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms linear 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 10ms linear;
+}

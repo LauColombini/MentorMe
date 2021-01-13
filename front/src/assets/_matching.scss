@@ -1,0 +1,182 @@
+@import "./_colors.scss";
+
+.cardsContainer {
+  width: 90%;
+  background-color: #f8fafa;
+  border: 1px solid #d7d9da;
+  position: absolute;
+  top: 14%;
+  left: 5%;
+  margin: 12px auto;
+  padding: 10px;
+  box-shadow: 0px 2px 17px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+
+  .matchCardOne {
+    width: 100%;
+    background-color: #f8fafa;
+    border: 1px solid $meColor;
+    margin: 12px auto;
+    padding: 3%;
+    box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    p {
+      color: rgb(138, 138, 138);
+      position: absolute;
+      bottom: 77%;
+      left: 38%;
+      font-size: 12px;
+    }
+    h4 {
+      position: absolute;
+      bottom: 79%;
+      left: 38%;
+      display: flex;
+      justify-content: flex-end;
+      color: $textColor;
+    }
+    .skillsConteiner {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      margin: 0;
+    }
+    .matchingSkills {
+      position: relative;
+      color: #383838;
+      font-size: 14px;
+    }
+  }
+
+  .matchCardTwo {
+    width: 100%;
+    background-color: #f8fafa;
+    border: 1px solid $meColor;
+    margin: 12px auto;
+    padding: 3%;
+    box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    h4 {
+      position: absolute;
+      bottom: 26%;
+      left: 38%;
+      display: flex;
+      justify-content: flex-end;
+      color: $textColor;
+    }
+    p {
+      color: rgb(138, 138, 138);
+      position: absolute;
+      bottom: 24%;
+      left: 38%;
+      font-size: 12px;
+    }
+
+    .skillsConteiner {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      margin: 0;
+    }
+    .matchingSkills {
+      position: relative;
+      color: #383838;
+      font-size: 14px;
+    }
+  }
+
+  ul {
+    padding: 0;
+  }
+  ul li {
+    list-style: none;
+  }
+  h3 {
+    color: $meColor;
+    text-align: center;
+  }
+  button {
+    border-radius: 150px;
+    height: 30px;
+    width: 8em;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    background: #a6d431;
+    display: flex;
+    margin: auto;
+  }
+}
+
+/* .matchingFather {
+  height: 100wh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .matchingImgVS {
+    position: absolute;
+    width: 100px;
+  }
+  form {
+    margin: 0%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .matchingMentorOrMenteeIMG {
+      border: 0.5px solid black;
+      margin: 3%;
+      width: 100px;
+    }
+    div {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      h5 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        color: #333;
+        font-size: 13px;
+      }
+      section {
+        font-weight: 600;
+        color: #333;
+      }
+      .matchingSkills {
+        font-weight: normal;
+        color: #333;
+      }
+      .myButton {
+        box-shadow: inset 0px 1px 0px 0px #caefab;
+        background: linear-gradient(to bottom, #c2ed9c 5%, #4b8c17 100%);
+        background-color: #c2ed9c;
+        border-radius: 6px;
+        border: 1px solid #268a16;
+        display: inline-block;
+        color: #306108;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #aade7c;
+      }
+      .myButton:hover {
+        background: linear-gradient(to bottom, #4b8c17 5%, #c2ed9c 100%);
+        background-color: #4b8c17;
+      }
+    }
+  }
+  .matchingOne {
+    margin: 5%;
+    box-shadow: 3px 3px 5px 6px #ccc;
+  }
+  .matchingTwo {
+    margin: 5%;
+    box-shadow: 3px 3px 5px 6px #ccc;
+  }
+}
+ */

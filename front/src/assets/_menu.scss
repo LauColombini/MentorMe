@@ -1,0 +1,24 @@
+@import "./_colors.scss";
+
+.container-menu {
+  width: 100%;
+  position: relative;  
+  min-height: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 13vh;
+  background: $landingBgColor;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.04);
+}
+.footer-icons {
+  color: rgb(169, 164, 164);
+}
+.badge{
+  color: $meColor;
+}
+
+
+//
+//$mentorColor
